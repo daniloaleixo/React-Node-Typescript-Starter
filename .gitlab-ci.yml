@@ -1,0 +1,53 @@
+# Official framework image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/node/tags/
+image: node:latest
+
+before_script:
+  # I have to install this lib manually otherwise webpack image loader will crash
+  - apt-get install -y libpng-dev
+  - npm install
+  # For some reason it gives an error if I not run this
+  - npm rebuild node-sass --force
+
+# This folder is cached between builds
+# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
+cache:
+  paths:
+    - node_modules/
+
+test:lint:
+  script:
+    - npm run lint
+  only:
+    - master
+
+# TODO tirar isso depois
+# test:vulnerabilities:
+#   script:
+#     - npm run vuln-test
+
+# Supported node versions can be found here:
+# https://github.com/nodejs/LTS#lts_schedule
+# jest does not support node < 4
+# https://facebook.github.io/jest/docs/troubleshooting.html#compatibility-issues
+test:node:6:
+  stage: test
+  script:
+    - npm install -g codecov
+    - npm run build
+    - npm run test && codecov
+    # Create coverage.txt to be read by regex of coverage
+    - cat coverage/lcov-report/index.html | grep -P "<span class=\"strong\">\d\d.\d\d%.*</span>" | head -1 | grep -P -o "\d\d.\d\d%" |  xargs -I {} echo "Coverage-percentage="{}
+  only:
+    - master
+
+# TODO Publish tagged versions to npm
+# publish:
+#   stage: deploy
+#   only:
+#     - tags
+#     - triggers
+#   script:
+#     - npm run build
+#     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+#     - npm publish

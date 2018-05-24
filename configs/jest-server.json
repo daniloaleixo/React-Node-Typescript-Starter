@@ -1,0 +1,30 @@
+{
+	"rootDir": "..",
+	"coverageDirectory": "<rootDir>/server/tests/__coverage__/",
+	"coverageReporters": [
+		"json"
+	],
+	"verbose": true,
+	"roots": [
+		"<rootDir>/core/",
+		"<rootDir>/server/src/",
+		"<rootDir>/server/tests/"
+	],
+	"globals": {
+		"ts-jest": {
+			"tsConfigFile": "tsconfig.json"
+		}
+	},
+	"moduleFileExtensions": [
+		"ts",
+		"js"
+	],
+	"transform": {
+		"^.+\\.(ts|tsx)$": "./node_modules/ts-jest/preprocessor.js"
+	},
+	"transformIgnorePatterns": [
+		"[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+	],
+	"testRegex": "/(server|core)/.*\\.test\\.(ts|tsx)$",
+	"testEnvironment": "node"
+}

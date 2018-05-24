@@ -1,0 +1,8 @@
+.vscode/
+exemplo.json
+bla.json
+node_modules/
+general.log
+package-lock.json
+dist/
+coverage/

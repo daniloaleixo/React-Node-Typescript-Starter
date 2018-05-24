@@ -1,0 +1,20 @@
+// client production config
+const merge = require('webpack-merge');
+const {resolve} = require('path');
+
+const commonConfig = require('./common');
+
+module.exports = merge(commonConfig, {
+  entry: './index.tsx',
+  output: {
+    filename: 'js/bundle.[hash].min.js',
+    path: resolve(__dirname, '../../dist/client'),
+    publicPath: '/',
+  },
+  devtool: 'source-map',
+  plugins: [],
+  // externals: {
+  //   'config': JSON.stringify(require('./config.prod.json'))
+  // }
+});
+

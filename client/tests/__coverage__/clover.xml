@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1524601112235" clover="3.2.0">
+  <project timestamp="1524601112236" name="All files">
+    <metrics statements="673" coveredstatements="353" conditionals="177" coveredconditionals="36" methods="200" coveredmethods="33" elements="1050" coveredelements="422" complexity="0" loc="673" ncloc="673" packages="22" files="45" classes="45">
+      <package name="client.src.app">
+        <metrics statements="52" coveredstatements="41" conditionals="6" coveredconditionals="4" methods="14" coveredmethods="6"/>
+        <file name="app.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/app.component.tsx">
+          <metrics statements="25" coveredstatements="20" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="4"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="50" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="55" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="58" count="1" type="stmt"/>
+        </file>
+        <file name="app.store.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/app.store.ts">
+          <metrics statements="12" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="8" count="3" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+        </file>
+        <file name="home.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/home.component.tsx">
+          <metrics statements="15" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.auth.pages.login">
+        <metrics statements="37" coveredstatements="12" conditionals="6" coveredconditionals="0" methods="16" coveredmethods="0"/>
+        <file name="login.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/auth/pages/login/login.tsx">
+          <metrics statements="37" coveredstatements="12" conditionals="6" coveredconditionals="0" methods="16" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="85" count="0" type="stmt"/>
+          <line num="91" count="0" type="stmt"/>
+          <line num="100" count="0" type="stmt"/>
+          <line num="102" count="0" type="stmt"/>
+          <line num="103" count="0" type="stmt"/>
+          <line num="106" count="0" type="stmt"/>
+          <line num="108" count="0" type="stmt"/>
+          <line num="109" count="0" type="stmt"/>
+          <line num="113" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.mentoring.pages.mentoring-session-end">
+        <metrics statements="12" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <file name="mentoring-session-end.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/mentoring/pages/mentoring-session-end/mentoring-session-end.tsx">
+          <metrics statements="12" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.mentoring.pages.mentoring-session-start">
+        <metrics statements="17" coveredstatements="8" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <file name="mentoring-session-start.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/mentoring/pages/mentoring-session-start/mentoring-session-start.tsx">
+          <metrics statements="17" coveredstatements="8" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.mentoring.pages.video-call">
+        <metrics statements="209" coveredstatements="41" conditionals="68" coveredconditionals="0" methods="70" coveredmethods="0"/>
+        <file name="call-modal.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/mentoring/pages/video-call/call-modal.component.tsx">
+          <metrics statements="7" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="1" type="stmt"/>
+        </file>
+        <file name="call-window.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/mentoring/pages/video-call/call-window.component.tsx">
+          <metrics statements="24" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="13" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="28" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+        </file>
+        <file name="emitter.service.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/mentoring/pages/video-call/emitter.service.ts">
+          <metrics statements="17" coveredstatements="3" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="22" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+        </file>
+        <file name="main-window.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/mentoring/pages/video-call/main-window.component.tsx">
+          <metrics statements="13" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+        </file>
+        <file name="media-device.service.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/mentoring/pages/video-call/media-device.service.ts">
+          <metrics statements="29" coveredstatements="5" conditionals="16" coveredconditionals="0" methods="9" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="31" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="65" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+        </file>
+        <file name="peer-connection.service.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/mentoring/pages/video-call/peer-connection.service.ts">
+          <metrics statements="42" coveredstatements="6" conditionals="6" coveredconditionals="0" methods="13" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="64" count="0" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="83" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="84" count="0" type="stmt"/>
+          <line num="85" count="0" type="stmt"/>
+          <line num="87" count="0" type="stmt"/>
+          <line num="90" count="1" type="stmt"/>
+        </file>
+        <file name="video-call.container.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/mentoring/pages/video-call/video-call.container.tsx">
+          <metrics statements="77" coveredstatements="13" conditionals="22" coveredconditionals="0" methods="23" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="71" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="72" count="0" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="77" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="80" count="0" type="stmt"/>
+          <line num="82" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="83" count="0" type="stmt"/>
+          <line num="89" count="0" type="stmt"/>
+          <line num="92" count="0" type="stmt"/>
+          <line num="93" count="0" type="stmt"/>
+          <line num="94" count="0" type="stmt"/>
+          <line num="97" count="0" type="stmt"/>
+          <line num="101" count="0" type="stmt"/>
+          <line num="102" count="0" type="stmt"/>
+          <line num="103" count="0" type="stmt"/>
+          <line num="106" count="0" type="stmt"/>
+          <line num="110" count="0" type="stmt"/>
+          <line num="111" count="0" type="stmt"/>
+          <line num="112" count="0" type="stmt"/>
+          <line num="113" count="0" type="stmt"/>
+          <line num="116" count="0" type="stmt"/>
+          <line num="117" count="0" type="stmt"/>
+          <line num="119" count="0" type="stmt"/>
+          <line num="120" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="121" count="0" type="stmt"/>
+          <line num="122" count="0" type="stmt"/>
+          <line num="124" count="0" type="stmt"/>
+          <line num="128" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="129" count="0" type="stmt"/>
+          <line num="131" count="0" type="stmt"/>
+          <line num="136" count="0" type="stmt"/>
+          <line num="137" count="0" type="stmt"/>
+          <line num="140" count="0" type="stmt"/>
+          <line num="153" count="0" type="stmt"/>
+          <line num="154" count="0" type="stmt"/>
+          <line num="156" count="0" type="stmt"/>
+          <line num="159" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.components">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <file name="barrel-components.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/components/barrel-components.ts">
+          <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.components.charts">
+        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="general-chart.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/components/charts/general-chart.component.tsx">
+          <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.components.charts.pie-chart">
+        <metrics statements="14" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="pie-chart.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/components/charts/pie-chart/pie-chart.component.tsx">
+          <metrics statements="14" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.components.header">
+        <metrics statements="28" coveredstatements="20" conditionals="6" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <file name="header.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/components/header/header.component.tsx">
+          <metrics statements="13" coveredstatements="11" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+        </file>
+        <file name="header.container.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/components/header/header.container.tsx">
+          <metrics statements="15" coveredstatements="9" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.components.loading">
+        <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <file name="loading.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/components/loading/loading.tsx">
+          <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="12" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.components.menu">
+        <metrics statements="26" coveredstatements="5" conditionals="29" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <file name="menu.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/components/menu/menu.component.tsx">
+          <metrics statements="26" coveredstatements="5" conditionals="29" coveredconditionals="0" methods="11" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="62" count="0" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="84" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.components.side-menu">
+        <metrics statements="20" coveredstatements="11" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <file name="side-menu-data.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/components/side-menu/side-menu-data.ts">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+        <file name="side-menu.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/components/side-menu/side-menu.component.tsx">
+          <metrics statements="17" coveredstatements="8" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.config">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="config.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/config/config.ts">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.constants">
+        <metrics statements="31" coveredstatements="31" conditionals="8" coveredconditionals="7" methods="4" coveredmethods="4"/>
+        <file name="barrel-constants.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/constants/barrel-constants.ts">
+          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="3" count="6" type="cond" truecount="1" falsecount="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+        </file>
+        <file name="chart.constant.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/constants/chart.constant.ts">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+        </file>
+        <file name="general.constant.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/constants/general.constant.ts">
+          <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+        </file>
+        <file name="routes.constant.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/constants/routes.constant.ts">
+          <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.higher-order-components.app-page">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <file name="app-page.hoc.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/higher-order-components/app-page/app-page.hoc.tsx">
+          <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="9" count="5" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.shared.services">
+        <metrics statements="63" coveredstatements="38" conditionals="12" coveredconditionals="4" methods="24" coveredmethods="8"/>
+        <file name="auth.service.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/services/auth.service.ts">
+          <metrics statements="14" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+        </file>
+        <file name="barrel-services.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/services/barrel-services.ts">
+          <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="3" count="6" type="cond" truecount="1" falsecount="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+        </file>
+        <file name="init.service.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/services/init.service.ts">
+          <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+        </file>
+        <file name="server-communication.service.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/services/server-communication.service.ts">
+          <metrics statements="24" coveredstatements="15" conditionals="8" coveredconditionals="3" methods="9" coveredmethods="4"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="47" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="53" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="60" count="1" type="stmt"/>
+          <line num="66" count="1" type="stmt"/>
+          <line num="70" count="1" type="stmt"/>
+        </file>
+        <file name="socket-communication.service.ts" path="/home/danilo/Documentos/learn-to-fly/client/src/app/shared/services/socket-communication.service.ts">
+          <metrics statements="9" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.test">
+        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="test.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/test/test.component.tsx">
+          <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="client.src.app.user.pages.profile">
+        <metrics statements="16" coveredstatements="12" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="profile.component.tsx" path="/home/danilo/Documentos/learn-to-fly/client/src/app/user/pages/profile/profile.component.tsx">
+          <metrics statements="16" coveredstatements="12" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="98" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="core.aggregators">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <file name="error.aggregator.ts" path="/home/danilo/Documentos/learn-to-fly/core/aggregators/error.aggregator.ts">
+          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="3" count="8" type="cond" truecount="1" falsecount="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="core.constants">
+        <metrics statements="71" coveredstatements="71" conditionals="18" coveredconditionals="17" methods="9" coveredmethods="9"/>
+        <file name="barrel-constants.ts" path="/home/danilo/Documentos/learn-to-fly/core/constants/barrel-constants.ts">
+          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="3" count="11" type="cond" truecount="1" falsecount="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+        </file>
+        <file name="business.constant.ts" path="/home/danilo/Documentos/learn-to-fly/core/constants/business.constant.ts">
+          <metrics statements="36" coveredstatements="36" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+        </file>
+        <file name="error.constant.ts" path="/home/danilo/Documentos/learn-to-fly/core/constants/error.constant.ts">
+          <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+        </file>
+        <file name="request.constant.ts" path="/home/danilo/Documentos/learn-to-fly/core/constants/request.constant.ts">
+          <metrics statements="24" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="63" count="1" type="stmt"/>
+          <line num="64" count="1" type="stmt"/>
+          <line num="65" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="core.helpers">
+        <metrics statements="38" coveredstatements="19" conditionals="8" coveredconditionals="1" methods="13" coveredmethods="1"/>
+        <file name="barrel-helpers.ts" path="/home/danilo/Documentos/learn-to-fly/core/helpers/barrel-helpers.ts">
+          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="3" count="9" type="cond" truecount="1" falsecount="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+        </file>
+        <file name="error.helper.ts" path="/home/danilo/Documentos/learn-to-fly/core/helpers/error.helper.ts">
+          <metrics statements="18" coveredstatements="7" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="57" count="1" type="stmt"/>
+        </file>
+        <file name="general.helper.ts" path="/home/danilo/Documentos/learn-to-fly/core/helpers/general.helper.ts">
+          <metrics statements="10" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+        </file>
+        <file name="request.helper.ts" path="/home/danilo/Documentos/learn-to-fly/core/helpers/request.helper.ts">
+          <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="core.interfaces">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="error.interface.ts" path="/home/danilo/Documentos/learn-to-fly/core/interfaces/error.interface.ts">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
