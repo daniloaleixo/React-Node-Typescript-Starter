@@ -26,7 +26,7 @@
     "lint:sass": "stylelint ./client/**/*.scss"
   },
   "dependencies": {
-    "antd": "3.5.0",
+    "antd": "^3.5.0",
     "async": "^2.6.0",
     "aws-sdk": "^2.238.1",
     "axios": "^0.18.0",
